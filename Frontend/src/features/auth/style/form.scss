@@ -1,0 +1,36 @@
+main{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    //  flex-direction: column;
+}
+
+.form-container{
+    height: fit-content;
+    min-width: 400px;
+form{
+    margin-top: 20px;
+    // width: 400px;
+  
+   display: flex;
+   flex-direction: column;
+   gap: 35px;
+
+    input,button{
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        
+    }
+    button{
+        background-color: rgb(0, 149, 246);
+        color: white;
+        font-weight: 500;
+        cursor: pointer;
+          transform: scale(0.95);
+    }
+}
+}
